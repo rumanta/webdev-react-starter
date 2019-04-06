@@ -4,8 +4,7 @@ module.exports = {
   },
   env: {
     browser: true,
-    es6: true,
-    jest: true
+    es6: true
   },
   extends: [
     "eslint:recommended",
@@ -21,7 +20,7 @@ module.exports = {
     },
     sourceType: "module"
   },
-  plugins: ["react", "jest"],
+  plugins: ["react"],
   rules: {
     "accessor-pairs": "error",
     "jsx-a11y/anchor-is-valid": 0,
